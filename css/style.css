@@ -12,7 +12,7 @@ body {
     align-items: center;
     background: linear-gradient(45deg, #ffecf2, #ffe0e9);
     font-family: 'Arial', sans-serif;
-    overflow-x: hidden;
+    overflow: auto;
     padding: 20px;
 }
 
@@ -116,7 +116,7 @@ h1 {
     background: #f8f9fa;
     color: #ff4d6d;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+    transition: left 0.3s ease, top 0.3s ease;
 }
 
 .whatsapp-btn {
